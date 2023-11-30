@@ -1,0 +1,112 @@
+.main{
+    width: 800px;
+    background-color: rgb(40, 40, 73);
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+.holova{
+    color: white;
+    text-align: center;
+    font-family: Franklin Gothic Medium;
+}
+
+.shiya {
+    color:  white;
+    background-color: rgb(0, 175, 26);
+    text-align: center;
+    font-family: Franklin Gothic Medium;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.promene {
+display: flex;
+margin: auto;
+font-family: Franklin Gothic Mediumna;
+} 
+
+.main_photo img{
+    padding: 10px 10px 10px 10px;
+    height: 199px;
+    width: 300px; 
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.social_network img {
+    height: 50px;
+    width: 50px; 
+    margin: 10px 10px 10px 10px;
+}
+
+.social_network {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 1px;
+}
+
+.fb:hover img{
+    transform: scale(1.1);
+}
+
+.inst:hover img{
+    transform: scale(1.1);
+}
+
+.tg:hover img{
+    transform: scale(1.1);
+}
+
+.information {
+    background-color: white;
+    max-width: 600px;
+    color: rgb(28, 23, 23);
+    padding: 5px 10px 5px 10px;
+    font-family: Franklin Gothic Mediumna;
+    margin: 10px 10px 10px 10px;
+    border-radius: 20px;
+}
+
+#liniya{
+    width: 770px;
+}
+
+.copyright{
+    text-align: center;
+    color: aliceblue;
+    font-family: Arial;
+}
+
+
+
+.novahtml{
+    all: initial;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 10px;
+    
+}
+
+.button {
+    all: initial;
+    color: white;
+    font-family: Franklin Gothic Medium;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(0, 175, 26);
+    padding: 3px 5px 3px 5px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    color: rgb(0, 175, 26);
+    background-color: white;
+}

@@ -1,0 +1,33 @@
+.container{
+    background-color: rgb(40, 40, 73);
+    border-radius: 10px;
+    justify-content: center;
+    margin: auto;
+    max-width: 800px;
+}
+
+.container img{
+   
+   
+    width: 300px; 
+    border-radius: 10px;
+}
+
+.gallery{
+    display: flex;
+    height: 200px;
+    padding: 10px 10px 10px 10px;
+}
+
+.gallery_img{
+    min-width: 0;
+    flex: 1 1 18px;
+    object-fit: cover;
+    opacity: .5;
+    transition: .5s;
+}
+
+.gallery_img:hover{
+    flex: 1 1 280px;
+    opacity: 1;
+}
